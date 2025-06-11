@@ -234,7 +234,7 @@ export default function PrepPalWaitlist() {
             {[
               { q: "When will PrepPal launch?", a: "We're targeting a launch in early 2025. Waitlist members will get 2 weeks early access!" },
               { q: "Is PrepPal free to use?", a: "We'll have both free and premium tiers. Waitlist members get 3 months of premium features free." },
-              { q: "What file formats do you support?", a: "We support PDF, DOCX, TXT, and many other popular document formats." },
+              { q: "What file formats do you support?", a: "We support only PDF for the free tier but  DOCX, TXT and many other popular document formats in the premium tier." },
               { q: "How accurate are the AI summaries?", a: "Our AI achieves 95%+ accuracy in extracting key concepts and maintaining context." }
             ].map((faq, i) => (
               <div key={i} className={`p-6 ${cardBg} backdrop-blur-sm rounded-2xl shadow-lg border ${borderColor} animate-fade-in-up`} style={{animationDelay: `${0.1 * i}s`}}>
