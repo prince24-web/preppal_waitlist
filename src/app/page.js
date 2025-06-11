@@ -165,7 +165,7 @@ export default function PrepPalWaitlist() {
             <a href="#" className={`p-3 ${cardBg} backdrop-blur-sm rounded-xl ${borderColor} border hover:scale-110 transition-all hover:shadow-lg`}>
               <Instagram className="w-5 h-5 text-pink-500" />
             </a>
-            <a href="#" className={`p-3 ${cardBg} backdrop-blur-sm rounded-xl ${borderColor} border hover:scale-110 transition-all hover:shadow-lg`}>
+            <a href="https://x.com/pceegalaxy?s=21" className={`p-3 ${cardBg} backdrop-blur-sm rounded-xl ${borderColor} border hover:scale-110 transition-all hover:shadow-lg`}>
               <Twitter className="w-5 h-5 text-blue-500" />
             </a>
             <a href="#" className={`p-3 ${cardBg} backdrop-blur-sm rounded-xl ${borderColor} border hover:scale-110 transition-all hover:shadow-lg`}>
@@ -226,7 +226,7 @@ export default function PrepPalWaitlist() {
           </h2>
           <div className="max-w-3xl mx-auto space-y-6">
             {[
-              { q: "When will PrepPal launch?", a: "We're targeting a launch in early 2025. Waitlist members will get 2 weeks early access!" },
+              { q: "When will PrepPal launch?", a: "We're targeting a launch in August 2025. Waitlist members will get 2 weeks early access!" },
               { q: "Is PrepPal free to use?", a: "We'll have both free and premium tiers. Waitlist members get 3 months of premium features free." },
               { q: "What file formats do you support?", a: "We support only PDF for the free tier but  DOCX, TXT and many other popular document formats in the premium tier." },
               { q: "How accurate are the AI summaries?", a: "Our AI achieves 95%+ accuracy in extracting key concepts and maintaining context." }
