@@ -1,20 +1,14 @@
 'use client'
 import React, { useState, useCallback, useEffect } from "react";
 import { 
-  ArrowRight, 
   CheckCircle, 
-  FileText, 
   Zap, 
   Brain, 
   BookOpen, 
   Target, 
-  Sparkles,
-  Mail,
-  User,
   Clock,
   Gift,
   Users,
-  Shield,
   Moon,
   Sun,
   Instagram,
@@ -205,7 +199,7 @@ export default function PrepPalWaitlist() {
         {/* Features Section */}
         <section className="mb-20">
           <h2 className={`text-4xl font-bold ${textPrimary} text-center mb-12 animate-fade-in-up`}>
-            What's Coming to PrepPal
+            What&apos;s Coming to PrepPal
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[

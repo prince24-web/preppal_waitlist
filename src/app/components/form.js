@@ -141,7 +141,7 @@ const WaitlistForm = ({ darkMode, cardBg, borderColor, textSecondary }) => {
       
       <p className={`text-sm ${textSecondary} mt-4 flex items-center justify-center gap-1`}>
         <Shield className="w-4 h-4" />
-        We won't spam you or share your info
+        We won&apos;t spam you or share your info
       </p>
     </div>
   )
