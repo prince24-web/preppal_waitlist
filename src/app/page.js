@@ -21,6 +21,7 @@ import {
   Twitter,
   MessageCircle
 } from "lucide-react";
+import WaitlistForm from "./components/form";
 
 export default function PrepPalWaitlist() {
   const [darkMode, setDarkMode] = useState(false);
@@ -164,46 +165,7 @@ export default function PrepPalWaitlist() {
           </div>
 
           {/* Waitlist Form */}
-          <div className={`max-w-md mx-auto mb-8 p-8 ${cardBg} backdrop-blur-sm rounded-3xl shadow-2xl border ${borderColor} animate-fade-in-up`} style={{animationDelay: '0.3s'}}>
-            <div className="space-y-4">
-              <div className="relative">
-                <User className={`absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 ${textSecondary}`} />
-                <input
-                  type="text"
-                  placeholder="Your name"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  className={`w-full pl-10 pr-4 py-3 rounded-xl border ${borderColor} ${
-                    darkMode ? 'bg-gray-700/50 text-white placeholder-gray-400' : 'bg-white text-gray-900 placeholder-gray-500'
-                  } focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all hover:shadow-md`}
-                />
-              </div>
-              <div className="relative">
-                <Mail className={`absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 ${textSecondary}`} />
-                <input
-                  type="email"
-                  placeholder="Your email address"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className={`w-full pl-10 pr-4 py-3 rounded-xl border ${borderColor} ${
-                    darkMode ? 'bg-gray-700/50 text-white placeholder-gray-400' : 'bg-white text-gray-900 placeholder-gray-500'
-                  } focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all hover:shadow-md`}
-                />
-              </div>
-              <button
-                onClick={handleSubmit}
-                className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all flex items-center justify-center gap-2 hover:scale-105 animate-button-glow"
-              >
-                Join the Waitlist
-                <ArrowRight className="w-5 h-5" />
-              </button>
-            </div>
-            <p className={`text-sm ${textSecondary} mt-4 flex items-center justify-center gap-1`}>
-              <Shield className="w-4 h-4" />
-              We won't spam you or share your info
-            </p>
-          </div>
-
+          <WaitlistForm/>
           {/* Social Links */}
           <div className="flex justify-center gap-4 animate-fade-in-up" style={{animationDelay: '0.6s'}}>
             <a href="#" className={`p-3 ${cardBg} backdrop-blur-sm rounded-xl ${borderColor} border hover:scale-110 transition-all hover:shadow-lg`}>
