@@ -23,14 +23,14 @@ export const metadata = {
     title: 'PrepPal - AI Study Assistant',
     description: 'Join our Waitlist to access the smartest way to study.',
     url:"https://preppal-waitlist.vercel.app",
-    images: ['/preppal-icon.png'],
+    images: ['/prepalwaitlistimage.jpg'],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'PrepPal - Your Smart Study Companion',
     description: 'Join our waitlist to access the smartest way to study.',
-    images: ['/preppal-icon.png'],
+    images: ['/prepalwaitlistimage.jpg'],
   },
 };
 
